@@ -18,7 +18,7 @@ export default function Contact() {
           a question to ask, or just want to say hi, feel free to reach out. I&apos;ll get back to you as soon as possible!
         </p>
         <form
-          action="https://formspree.io/f/xknylodz"
+          action="https://formspree.io/f/mjvlqgpq"
           method="POST"
           className="font-montserrat flex flex-col items-center gap-4 w-[80%] max-w-[500px]"
         >
@@ -61,7 +61,7 @@ export default function Contact() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/peter-nady-beshara"
+            href="https://www.linkedin.com/in/musa-habeeb"
           >
             <FontAwesomeIcon
               icon={faLinkedinIn}
@@ -69,7 +69,7 @@ export default function Contact() {
             />
           </a>
           <a
-            href="mailto:peter.nady.1408@gmail.com"
+            href="mailto:efiamotuu@gmail.com"
           >
             <FontAwesomeIcon
               icon={faEnvelope}

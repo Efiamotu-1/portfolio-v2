@@ -12,9 +12,8 @@ export default function About() {
         <h4 className="pl-1 font-cutive md:text-lg lg:text-xl leading-4">
           HEY THERE!<br />MY NAME IS
         </h4>
-        <div className="flex flex-col items-start gap-3 flex-wrap">
-          <Image src="/peter.png" width={500} height={500} alt="first name" className="w-auto h-6 md:h-8 lg:h-10" />
-          <Image src="/beshara.png" width={500} height={500} alt="last name" className="w-auto h-6 md:h-8 lg:h-10" />
+        <div className="flex flex-col items-start gap-3 flex-wrap tracking-widest font-bold text-[1.5rem]">
+          HABEEB EFIAMOTU MUSA
         </div>
         <h3 className="font-cutive font-bold text-lg md:text-xl leading-4 text-aqua/90">
           FULL-STACK WEB DEVELOPER
@@ -28,7 +27,7 @@ export default function About() {
         </p>
         <p className="font-thin max-w-lg md:max-w-xl lg:max-w-2xl bg-gradient-to-br from-rich-black/50 p-2 lg:mr-8 leading-6 font-saira text-lg md:text-xl">
           When I&apos;m not coding up a strom,
-          you can find me reading, working-out, playing Chess or video games.<br />
+          you can find me reading, working-out or playing video games.<br />
           I also love to meet new people. So, feel free to contact me,
           and let&apos;s have a conversation!<br />
         </p>
@@ -43,7 +42,15 @@ export default function About() {
             </li>
             <li className="w-1/2 flex gap-2 justify-start items-center">
               <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
+              TypeScript
+            </li>
+            <li className="w-1/2 flex gap-2 justify-start items-center">
+              <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
               React.js
+            </li>
+            <li className="w-1/2 flex gap-2 justify-start items-center">
+              <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
+              React Query
             </li>
             <li className="w-1/2 flex gap-2 justify-start items-center">
               <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
@@ -51,15 +58,23 @@ export default function About() {
             </li>
             <li className="w-1/2 flex gap-2 justify-start items-center">
               <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
+              ContextAPI
+            </li>
+            <li className="w-1/2 flex gap-2 justify-start items-center">
+              <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
               Next.js
             </li>
             <li className="w-1/2 flex gap-2 justify-start items-center">
               <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
-              Three.js
+              Styled Components
             </li>
             <li className="w-1/2 flex gap-2 justify-start items-center">
               <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
               Tailwind
+            </li>
+            <li className="w-1/2 flex gap-2 justify-start items-center">
+              <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
+              Sass
             </li>
             <li className="w-1/2 flex gap-2 justify-start items-center">
               <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
@@ -72,6 +87,10 @@ export default function About() {
             <li className="w-1/2 flex gap-2 justify-start items-center">
               <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
               PostgreSQL
+            </li>
+            <li className="w-1/2 flex gap-2 justify-start items-center">
+              <FontAwesomeIcon icon={faCaretRight} size="sm" className="text-aqua/80 w-2" />
+              SOFTR (No code website)
             </li>
           </ul>
         </div>

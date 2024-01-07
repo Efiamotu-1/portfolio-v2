@@ -6,10 +6,10 @@ export default function Footer() {
       <Link
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/Peter1907/portfolio-v2"
+        href="https://github.com/Efiamotu-1/portfolio-v2"
         className="text-snow font-cutive text-sm hover:text-aqua"
       >
-        DESIGNED & BUILT BY HABEEB EFIAMOTU MUSA
+        DESIGNED & BUILT BY HABEEB EFIAMOTU MUSA WITH DESIGN INSPIRATION FROM PETER BESHARA
       </Link>
     </footer>
   );

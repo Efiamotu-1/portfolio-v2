@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngellist, faGithub, faLinkedinIn, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faAngellist, faGithub, faLinkedinIn, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Social() {
   return (
@@ -8,7 +8,7 @@ export default function Social() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Peter1907"
+          href="https://github.com/Efiamotu-1"
         >
           <FontAwesomeIcon
             icon={faGithub}
@@ -19,7 +19,7 @@ export default function Social() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/peter-nady-beshara"
+          href="https://www.linkedin.com/in/musa-habeeb"
         >
           <FontAwesomeIcon
             icon={faLinkedinIn}
@@ -30,10 +30,10 @@ export default function Social() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://wellfound.com/u/peter-beshara"
+          href="https://twitter.com/EFYAMOTU"
         >
           <FontAwesomeIcon
-            icon={faAngellist}
+            icon={faTwitter}
             size="lg"
             className="hover:mb-1 hover:-mt-1 hover:text-aqua/80 transition-all duration-200"
           />
@@ -41,7 +41,7 @@ export default function Social() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://medium.com/@peter.beshara"
+          href="https://medium.com/@musahabeebefy10"
         >
           <FontAwesomeIcon
             icon={faMedium}
@@ -54,10 +54,10 @@ export default function Social() {
       <div className="email flex flex-col items-center gap-4 fixed top-16 right-6">
         <p className="vertical-line h-[10vh] border-r border-gray-400" />
         <a
-          href="mailto:peter.nady.1408@gmail.com"
-          className="cursor-pointer w-5 -rotate-90 mt-[11.5rem] hover:mt-[11.8rem] hover:text-aqua/80 transition-all duration-200"
+          href="mailto:efiamotuu@gmail.com"
+          className="cursor-pointer w-5 -rotate-90 mt-[8.5rem] hover:mt-[11.8rem] hover:text-aqua/80 transition-all duration-200"
         >
-          peter.nady.1408@gmail.com
+          efiamotuu@gmail.com
         </a>
       </div>
     </section>

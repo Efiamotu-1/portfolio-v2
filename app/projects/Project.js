@@ -36,11 +36,7 @@ const Info = ({ id, title, description, tags, source, live_demo }) => (
       }
     >
       <p className="leading-6 text-sm lg:text-md">{description}</p>
-      <a
-        href="#"
-        className={`font-saira text-aqua hover:underline ${isOdd(id) ? 'self-end' : 'self-start'}`}>
-        more about this
-      </a>
+      
     </div>
     <div className={`flex flex-wrap lg:mx-2 ${!isOdd(id) && 'self-end text-right'}`}>
       {tags.map((tag, i) => (
